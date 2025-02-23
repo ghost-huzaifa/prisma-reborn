@@ -1,0 +1,26 @@
+{
+  "name": "prisma-reborn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testFile.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghost-huzaifa/prisma-reborn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghost-huzaifa/prisma-reborn/issues"
+  },
+  "homepage": "https://github.com/ghost-huzaifa/prisma-reborn#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
