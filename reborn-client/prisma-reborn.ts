@@ -1,11 +1,11 @@
-import { PrismaModel } from "./prismaModel";
+import { PrismaModel } from "./prisma-model";
 import { DMMFModel } from "./specs/models";
 import { dmmf } from "./specs/project-dmmf";
 
 export class PrismaReborn {
-    public user: PrismaModel;
+    public CcmGoalTemplate: PrismaModel;
     constructor() {
-        this.user = new PrismaModel(dmmf.models[0]);
+        this.CcmGoalTemplate = new PrismaModel(dmmf.models.find(model => model.name === "CcmGoalTemplate"));
         // dmmf.models.forEach((model: DMMFModel) => {
         //     this[model.name.toLowerCase()] = new PrismaModel(model);
         // })

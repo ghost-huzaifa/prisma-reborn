@@ -86,7 +86,7 @@ export class PrismaModel {
                         const aliasName = `${prefix}${columnName}`;
                         fields.push(`${tableName}.${columnName} AS ${aliasName}`);
                     } else {
-                        fields.push(field); // Already aliased field
+                        fields.push(field);
                     }
                 }
 
